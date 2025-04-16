@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Team Meeting Minutes</title>
+</head>
+<body>
+
+  <header>
+    <h1>Weekly Team Meeting</h1>
+    <nav>
+      <ul>
+        <li><a href="#agenda">Agenda</a></li>
+        <li><a href="#notes">Notes</a></li>
+        <li><a href="#form">Feedback</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="agenda">
+      <h2>Meeting Agenda</h2>
+      <p>The following items were discussed during the meeting:</p>
+      <ul>
+        <li>Some important things</li>
+        <li>Some important media to watch</li>
+        <li>A very cool form</li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <section id="notes">
+      <h2>Meeting Notes</h2>
+      <p><strong>Important:</strong> Everyone should do this thing that is very <em>important</em>.</p>
+      <p>Overall project progress is <b>on track</b>, but we must <i>monitor dependencies</i> closely.</p>
+      <ol>
+        <li>This is some notes</li>
+        <li>This is some notes</li>
+        <li>This is some notes</li>
+      </ol>
+
+      <p>Here is a little HMTL tutorial, <a href="https://www.w3schools.com/Html/">HMTL tutorial</a>.</p>
+
+      <p>Action items:<br>
+      - We have to do this<br>
+      - We have to do that</p>
+
+      <div>
+        This <span>highlighted note</span> might be important as well!
+      </div>
+    </section>
+
+    <section id="media">
+      <h2>Multimedia</h2>
+
+      <h3>Photo of HTML</h3>
+      <img src="Media_part1/HTML5_LOGO.png" width="300" />
+
+      <h3>A song that was played in the background of the meeting</h3>
+      <audio controls src="Media_part1/Musicpart.mp3">
+       
+       
+      </audio>
+
+      <h3>HTML in 100 seconds</h3>
+      <video width="320" height="240" controls>
+        <source src="Media_part1/HTML in 100 Seconds.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <section id="summary">
+      <h2>Meeting Summary</h2>
+      <details>
+        <summary>Click to view summary</summary>
+        <p>This was a very important meeting</p>
+      </details>
+    </section>
+
+    <section id="form">
+      <h2>Feedback Form</h2>
+      <form>
+        <fieldset>
+          <legend>Tell us what you think!</legend>
+
+          <label for="username">Name:</label>
+          <input type="text" id="username" name="username"><br><br>
+
+          <label for="feedback-date">Date:</label>
+          <input type="date" id="feedback-date" name="feedback-date"><br><br>
+
+          <label>How was the meeting?</label><br>
+          <input type="radio" id="good" name="rating" value="good">
+          <label for="good">Good</label><br>
+          <input type="radio" id="average" name="rating" value="average">
+          <label for="average">Average</label><br>
+          <input type="radio" id="bad" name="rating" value="bad">
+          <label for="bad">Bad</label><br><br>
+
+          <label>Topics you liked:</label><br>
+          <input type="checkbox" id="design" name="topics" value="design">
+          <label for="design">Design</label><br>
+          <input type="checkbox" id="dev" name="topics" value="dev">
+          <label for="dev">Development</label><br><br>
+
+          <label for="platform">Preferred Platform:</label>
+          <input list="platforms" id="platform" name="platform">
+          <datalist id="platforms">
+            <option value="Zoom">
+            <option value="Google Meet">
+            <option value="Microsoft Teams">
+          </datalist><br><br>
+
+          <label for="comments">Additional Comments:</label><br>
+          <textarea id="comments" name="comments" rows="4" cols="40"></textarea><br><br>
+
+          <label for="followup">Would you like a follow-up?</label>
+          <select id="followup" name="followup">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select><br><br>
+
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p> 2025 HTML</p>
+  </footer>
+
+</body>
+</html>
