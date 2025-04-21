@@ -1,7 +1,7 @@
-# [Insert Today's Date] Daily Meeting
+# [Insert Today's Date] Stand Up Meeting
 
 ## Attendance
-List Attendees Here:
+List Attendees Here:\
 List Absentees Here:
 
 ## Announcements
