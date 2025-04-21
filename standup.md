@@ -5,7 +5,7 @@ List Attendees Here:\
 List Absentees Here:
 
 ## Announcements
-Write down any annoucnements needed to disclose for this meeting
+Write down any annoucnements needed to disclose for this meeting\
 Cover any questions created due to the annoucements
 
 ## Agenda
