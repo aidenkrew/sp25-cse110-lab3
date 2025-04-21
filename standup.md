@@ -17,4 +17,5 @@ Put any links and/or other materials needed for this meeting.
 ## Questions
 Put any questions participants have here.
 
-
+## Closing 
+Any closing statements needed here (Deadlines, reminders, etc.)
