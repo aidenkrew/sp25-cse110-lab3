@@ -34,10 +34,10 @@ div.wrapper span {
 h2{
     background-color: rgb(197 93 161);
     color: color(display-p3 1 0.5 0 / .5);
-    margin-top: 10;
-    margin-bottom: 10;
-    margin-left: 10;
-    margin-right: 10;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10pc;
+    margin-right: 10pc;
     min-width: none;
 }
 
@@ -48,7 +48,7 @@ h3{
     border-style: dashed;
     border-width: 4px;
     border-color: color(from green srgb r g b / 0.5);
-    margin: 10 10 10 10;
+    margin: 10px 10px 10px 10px;
     max-width: 1000px;
     max-height: 100px;
     display: flex;
@@ -87,15 +87,15 @@ display: block;
     height: 100px;
     width: 100in;
     display: none;
-    padding-left: 10;
-    padding-right: 10;
-    padding-top: 10;
-    padding-bottom: 10;
+    padding-left: 10pc;
+    padding-right: 10pc;
+    padding-top: 10pc;
+    padding-bottom: 10pc;
 }
 
 ul{
     margin: auto;
-    padding: 10 10 10 10;
+    padding: 10px 10px 10px 10px;
 
 }
 div:has(> .highlight) {
