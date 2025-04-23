@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link href="https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS.css">
+  <style>
+    body {
+      background-color: linen;
+    }
+    
+    h1 {
+      color: maroon;
+      margin-left: 40px;
+    }
+    </style>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>HTMLnMeeting Minutes</title>
@@ -11,9 +23,10 @@
   <header>
     <h1>Weekly Team Meeting</h1>
     <nav>
+      <p data-type="intro">This is an intro paragraph.</p>
       <ul>
-        <li><a href="#agenda">Agenda</a></li>
-        <li><a href="#notes">Notes</a></li>
+        <li class="agenda"><a href="#agenda">Agenda</a></li>
+        <li id="notes"><a href="#notes">Notes</a></li>
         <li><a href="#form">Feedback</a></li>
       </ul>
     </nav>
@@ -21,7 +34,7 @@
 
   <main>
     <section id="agenda">
-      <h2>Meeting Agenda</h2>
+      <h2 style="color:red;">Meeting Agenda</h2>
       <p>The following items were discussed during the meeting:</p>
       <ul>
         <li>Some important things</li>
@@ -29,6 +42,16 @@
         <li>A very cool form</li>
       </ul>
     </section>
+
+
+    <div class="wrapper">
+      <span>First span</span> <br>
+      <span class="alert">Second span</span>
+
+    </div>
+    <div class="box">
+      <p class="highlight">Inside the box</p>
+    </div>
 
     <hr>
 
@@ -41,6 +64,10 @@
         <li>This is some notes</li>
         <li>This is some notes</li>
       </ol>
+      <div >
+        
+        <p>Lorem suscipit nemo a deserunt distinctio? Non minus nemo fugiat tenetur ipsam ad accusamus id dicta magnam maiores! Fuga quas minus in?</p>
+      </div>
 
       <p>Here is a little HMTL tutorial, <a href="https://www.w3schools.com/Html/">HMTL tutorial</a>.</p>
 
@@ -51,6 +78,8 @@
       <div>
         This <span>highlighted note</span> might be important as well!
       </div>
+
+     
     </section>
 
     <section id="media">

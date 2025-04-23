@@ -1,0 +1,143 @@
+form {
+    background-color: #add8e6; /* Set background color to lightblue*/
+}
+h1{
+    font-family: "Winky Rough";
+    position: fixed;
+}
+button:hover {
+    background-color: lightblue;
+  }
+
+
+p[data-type="intro"] {
+    color: teal;
+    font-style: italic;
+
+
+}
+
+h3, button {
+    color: purple
+}
+
+div.wrapper > span.alert {
+    font-weight: bold;
+  }
+
+
+div.wrapper span {
+    color: navy;
+}
+  
+
+h2{
+    background-color: rgb(197 93 161);
+    color: color(display-p3 1 0.5 0 / .5);
+    margin-top: 10;
+    margin-bottom: 10;
+    margin-left: 10;
+    margin-right: 10;
+    min-width: none;
+}
+
+h3{
+    background-color: hsl(84, 100%, 70%);
+    text-decoration: dotted;
+    border-radius: 100px;
+    border-style: dashed;
+    border-width: 4px;
+    border-color: color(from green srgb r g b / 0.5);
+    margin: 10 10 10 10;
+    max-width: 1000px;
+    max-height: 100px;
+    display: flex;
+}
+a:link{
+    color: lawngreen;
+    position: static;
+    display: grid;
+}
+
+@media (max-width: 600px) {
+    body {
+      background-color: #e0f7fa;
+    }
+  
+    .title {
+      font-size: 18px;
+      color: darkblue;
+    }
+  
+    button {
+      width: 100%;
+      font-size: 16px;
+    }
+  }
+
+*{
+ background-color: rgb(174, 174, 237);   
+}
+
+.agenda{
+max-width: 100px;
+display: block;
+}
+#notes{
+    height: 100px;
+    width: 100in;
+    display: none;
+    padding-left: 10;
+    padding-right: 10;
+    padding-top: 10;
+    padding-bottom: 10;
+}
+
+ul{
+    margin: auto;
+    padding: 10 10 10 10;
+
+}
+div:has(> .highlight) {
+    border: 2px solid orange;
+    padding: 10px;
+}
+
+p.highlight {
+    background-color: #ffffcc;
+    padding: 5px;
+}
+
+.title + p {
+    margin-top: 15px;
+    color: darkgreen;
+}
+
+.box ~ .wrapper {
+    border: 1px dashed red;
+}
+
+h1:active{
+    color:aqua;
+}
+
+
+
+:root {
+    --main-bg-color: #f0f0f0;
+  }
+  
+  body {
+    background-color: var(--main-bg-color, white);
+  }
+  @layer base {
+    .wrapper {
+      & span {
+        font-family: Arial, sans-serif;
+      }
+  
+      & > .alert {
+        text-decoration: underline;
+      }
+    }
+  }
