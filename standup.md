@@ -1,21 +1,23 @@
-# [Insert Today's Date] Stand Up Meeting
+# [April 22nd, 2025] Stand Up Meeting
 
 ## Attendance
-List Attendees Here:\
-List Absentees Here:
+List Attendees Here: Aiden, Me, Myself
+List Absentees Here: Casper, Alex Mason, Shawn
 
 ## Announcements
-Write down any annoucnements needed to disclose for this meeting\
-Cover any questions created due to the annoucements
+We have to do a lot of work this week.
+No procrastinating!
 
 ## Agenda
-Write down the agenda needed to cover for today's meeting. (Progress, issues, etc.)
+Ask how progress is on Lab #3
+Make sure to start Lab #4 early.
 
 ## Materials
-Put any links and/or other materials needed for this meeting.
+[Put any links and/or other materials needed for this meeting.](https://canvas.ucsd.edu/courses/64571/assignments/952036)
 
 ## Questions
-Put any questions participants have here.
+When is the due date for Lab #4?
+*April 29th*
 
 ## Closing 
-Any closing statements needed here (Deadlines, reminders, etc.)
+Make sure to finish early and start early!
